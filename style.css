@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#container {
+  width: 550px;
+  height: 600px;
+  border: 2px solid gray;
+  margin: 30px auto;
+  padding: 35px;
+  padding-top: 90px;
+  background-color: #1f2937;
+  border-radius: 5px;
+}
+
+.section-1 {
+  border-bottom: 1px solid rgba(128, 128, 128, 0.305);
+  margin-bottom: 60px;
+}
+
+.header {
+  font-family: "Karla", sans-serif;
+  font-size: 50px;
+  line-height: 1px;
+  color: white;
+  margin-bottom: 5px;
+}
+
+.header span {
+  color: #00ffaa;
+  line-height: 2;
+}
+
+.subline {
+  color: rgb(232, 232, 232);
+  font-family: "Karla", sans-serif;
+  font-size: 18px;
+  margin-top: 12px;
+}
+
+.subline-2 {
+  color: rgb(111, 255, 207);
+  font-family: "Karla", sans-serif;
+  font-size: 14px;
+  line-height: 3;
+}
+
+#btn {
+  background-color: #0fce8e;
+  color: white;
+  width: 190px;
+  padding: 10px;
+  font-family: "Karla", sans-serif;
+  font-size: 17px;
+  border-radius: 7px;
+  border: none;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+#btn:active {
+  background-color: #00ffaa;
+}
+
+.section-2 {
+  padding: top 50px;
+  display: flex;
+  flex-direction: row;
+}
+
+.outputText {
+  width: 220px;
+  height: 40px;
+  padding: 12px 20px;
+  margin-right: 12px;
+  border-radius: 7px;
+  outline: none;
+  border: none;
+  background-color: #2f415a;
+  color: #00ffaa;
+  font-family: "Karla", sans-serif;
+  font-size: 16px;
+  text-align: center;
+  overflow: hidden;
+}
+.outputText::selection {
+  color: white;
+  background-color: #1bb07f;
+}
